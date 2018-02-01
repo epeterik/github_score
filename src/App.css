@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.containerDivStyle {
+  margin: 5px;
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: peru;*/
+}
+
+.leftColumnStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: black;*/
+  display: inline-block;
+  margin: 8px;
+}
+
+.rightColumnStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: green;*/
+  display: inline-block;
+  margin: 8px;
+  width: 400px;
+}
+
+.leftHeaderRowStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: yellow;*/
+  display: block;
+  font-size: 40pt;
+  margin: 8px;
+}
+
+.leftUserNameRowStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: blue;*/
+  display: block;
+  margin: 8px;
+  text-align: left;
+}
+
+.userNameInputStyle {
+  width: 210px;
+}
+
+.leftButtonRowStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: purple;*/
+  display: block;
+  margin: 10px;
+}
+
+.lookupButtonStyle {
+  width: 350px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.rightScoreRowStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: palevioletred;*/
+  display: block;
+  margin: 5px;
+}
+
+.rightMessageRowStyle {
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: deeppink; */
+  display: block;
+  margin: 5px;
+}
+
+.scoreResultStyle {
+  font-size: 20pt;
+}
+
+.scoreNeedsWorkStyle {
+  color: red;
+}
+
+.scoreDecentStartStyle {
+  color: orange;
+}
+
+.scoreDoingGoodStyle {
+  color: black;
+}
+
+.scoreGreatJobStyle {
+  color: green;
+}
+
+.scoreEliteStyle {
+  color: blue;
+}
+
+.gitHubScoreStyle {
+  font-size: 34pt;
+}
+
+.gitHubErrorStyle {
+  font-size: 20pt;
+  color: red;
+}
